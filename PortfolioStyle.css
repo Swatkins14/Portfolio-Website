@@ -1,0 +1,169 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#left-panel {
+    width: 17%;
+    height:auto;
+    background-color: #484444;
+    padding: 0.7cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#right-panel {
+    width: 73%;
+    padding: 0.7cm;
+    background-color:rgb(154, 154, 154);
+    flex: 4;
+}
+
+#titles {
+    font-weight: bolder;
+    text-align: left ;
+    line-height: 40px;
+    letter-spacing: 1x;
+    color: #ebebeb;
+    padding: 17px 10px 17px 17px;
+    font-size: 25px;
+    border-bottom: 1px solid #ffffff37;
+}
+
+#location {
+    font-weight: bolder;
+    letter-spacing: 1x;
+    color: #ebebeb;
+    padding: 0px 0px 20px 17px;
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff37;
+}
+
+#details {
+    font-weight: bolder;
+    letter-spacing: 1x;
+    color: #ebebeb;
+    padding: 0px 0px 20px 17px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 25px;
+}
+
+#email {
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(201, 211, 255);
+}
+
+a:visited{
+    color: #dd64ff;
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
+
+aside {
+    background-color: #793c3c;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.image-container img {
+    height: auto;    
+    width: 100%;
+    display: block;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.overlay-text {
+    position: absolute;
+    transform: translate(0%, -100%); 
+    background-color: #121212d5; 
+    color: #ffffff; 
+    padding: 0.5px 39px; 
+    font-size: 10px; 
+    text-align: left;
+}
+
+h2 {
+    font-size: 35px;
+    color: #484848;
+    padding-left: 10px;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#metext {
+    padding-left: 10px;
+    line-height: 22px;
+}
+
+.job {
+    font-style: italic;
+    color:darkolivegreen;
+    padding-left: 10px;
+}
+
+.films {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 118, 64);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+.description {
+    border-bottom: 1px solid #7e7e7e;
+    padding: 0px 10px 40px 10px
+}
+
+#bottomdescription {
+    border-bottom: 0px solid #ffffff;
+    padding: 0px 0px 10px 10px;
+}
+
+.school {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(170, 80, 80);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+.year {
+    font-style: italic;
+    color:rgb(84, 84, 84);
+    padding-left: 10px;
+}
+
+.course {
+    border-bottom: 1px solid #7e7e7e;
+    padding: 0px 10px 40px 10px;
+    font-weight: bold;
+}
+
+#finalcourse {
+    border-bottom: 0px, solid, #ffffff;
+    padding: 0px 10px 40px 10px;
+    font-weight: bold;
+}
